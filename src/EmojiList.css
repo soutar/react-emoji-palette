@@ -1,0 +1,29 @@
+.emoji_list {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.emoji_list__header {
+  border-bottom: 1px solid #e1e8ed;
+  color: #8899a6;
+  font-size: 15px;
+  padding: 6px 18px;
+  text-align: left;
+}
+
+.emoji_list__items {
+  flex: 1 1 auto;
+}
+
+.emoji_list__emoji {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  font-size: 20px;
+}

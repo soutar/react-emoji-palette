@@ -1,0 +1,33 @@
+{
+  "name": "react-emoji-palette",
+  "version": "1.0.0-alpha1",
+  "description": "A React clone of Twitter's emoji picker, supporting native rendering & Twemoji",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 9001",
+    "download": "node utils/downloadData.js"
+  },
+  "keywords": [
+    "emoji",
+    "react",
+    "twemoji",
+    "unicode",
+    "picker"
+  ],
+  "author": "John Soutar <john@soutar.me>",
+  "license": "ISC",
+  "devDependencies": {
+    "@kadira/storybook": "^2.30.0",
+    "array-range": "^1.0.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "ramda": "^0.22.1",
+    "react": "^15.4.1",
+    "react-addons-shallow-compare": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-icons": "^2.2.2",
+    "react-virtualized": "^8.8.1"
+  }
+}

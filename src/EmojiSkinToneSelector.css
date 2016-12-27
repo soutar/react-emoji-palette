@@ -1,0 +1,51 @@
+.emoji_skin_tone_selector {
+  flex: 0 0 35px;
+  border-top: 1px solid #e1e8ed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 28px;
+}
+
+
+.emoji_skin_tone_selector__input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  margin: 0;
+}
+.emoji_skin_tone_selector__tone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  height: 17px;
+  width: 17px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.emoji_skin_tone_selector__tone--no_skin_tone {
+  background-color: #ffcc4d;
+}
+
+.emoji_skin_tone_selector__tone--light {
+  background-color: #f7dece;
+}
+
+.emoji_skin_tone_selector__tone--medium_light {
+  background-color: #f3d2a2;
+}
+
+.emoji_skin_tone_selector__tone--medium {
+  background-color: #d5ab88;
+}
+
+.emoji_skin_tone_selector__tone--medium_dark {
+  background-color: #af7e57;
+}
+
+.emoji_skin_tone_selector__tone--dark {
+  background-color: #7c533e;
+}

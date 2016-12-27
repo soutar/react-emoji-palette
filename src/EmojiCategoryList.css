@@ -1,0 +1,61 @@
+.emoji_category_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.emoji_category_list__category {
+  /*outline: none;*/
+  border: none;
+  flex: 0 0 24px;
+  width: 24px;
+  background-color: transparent;
+  background-image: none, url('./images/categories.png');
+  background-size: 48px 216px, 48px 216px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.emoji_category_list__category--active,
+.emoji_category_list__category:hover {
+  background-image: url('./images/categories.png'), none;
+}
+
+.emoji_category_list__category + .emoji_category_list__category {
+  margin-top: 10px;
+}
+
+.emoji_category_list__category--nature {
+  background-position: 0 -48px,-24px -48px;
+}
+
+.emoji_category_list__category--people {
+  background-position: 0 -24px,-24px -24px;
+}
+
+.emoji_category_list__category--recent {
+    background-position: 0 0,-24px 0
+}
+
+.emoji_category_list__category--food {
+    background-position: 0 -72px,-24px -72px
+}
+
+.emoji_category_list__category--activity {
+    background-position: 0 -96px,-24px -96px
+}
+
+.emoji_category_list__category--travel {
+    background-position: 0 -120px,-24px -120px
+}
+
+.emoji_category_list__category--objects {
+    background-position: 0 -144px,-24px -144px
+}
+
+.emoji_category_list__category--symbols {
+    background-position: 0 -168px,-24px -168px
+}
+
+.emoji_category_list__category--flags {
+    background-position: 0 -192px,-24px -192px
+}
