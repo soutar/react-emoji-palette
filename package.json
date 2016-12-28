@@ -2,11 +2,14 @@
   "name": "react-emoji-palette",
   "version": "1.0.0-alpha2",
   "description": "A React clone of Twitter's emoji picker, supporting native rendering & Twemoji",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 9001",
-    "download": "node utils/downloadData.js"
+    "download": "node utils/downloadData.js",
+    "build": "npm run clean && cp -r src/* lib/ && NODE_ENV=production babel src -d lib",
+    "clean": "rimraf lib && mkdir lib",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "emoji",
@@ -19,7 +22,10 @@
   "license": "ISC",
   "devDependencies": {
     "@kadira/storybook": "^2.30.0",
-    "array-range": "^1.0.1"
+    "array-range": "^1.0.1",
+    "babel-core": "^6.21.0",
+    "babel-preset-react-app": "^2.0.1",
+    "rimraf": "^2.5.4"
   },
   "dependencies": {
     "classnames": "^2.2.5",
