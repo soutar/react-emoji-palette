@@ -4,8 +4,8 @@ import EmojiCategoryList from './EmojiCategoryList';
 import EmojiSearch from './EmojiSearch';
 import EmojiList from './EmojiList';
 import EmojiSkinToneSelector from './EmojiSkinToneSelector';
-import { SKIN_TONES, MODES } from './constants';
-import { onEmojiSelect, mode, maxUnicodeVersion, displayZeroWidthJoins } from './propTypes';
+import { SKIN_TONES, MODES } from '../shared/constants';
+import { onEmojiSelect, mode, maxUnicodeVersion, displayZeroWidthJoins } from '../shared/propTypes';
 
 const placeholderCategories = [
   { id: 'recent', title: 'Recently used' },
@@ -33,7 +33,7 @@ export default class EmojiPalette extends Component {
   }
   componentDidMount () {
     require.ensure([], require => {
-      const emojiData = require('./emoji.json');
+      const emojiData = require('../data/emoji.json');
       const categories = emojiData.categories.map(
         category => ({
           id: category.id,

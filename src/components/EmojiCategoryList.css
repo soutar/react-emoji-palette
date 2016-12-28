@@ -8,7 +8,7 @@
   flex: 0 0 24px;
   width: 24px;
   background-color: transparent;
-  background-image: none, url('./images/categories.png');
+  background-image: none, url('../images/categories.png');
   background-size: 48px 216px, 48px 216px;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -16,7 +16,7 @@
 
 .emoji_category_list__category--active,
 .emoji_category_list__category:hover {
-  background-image: url('./images/categories.png'), none;
+  background-image: url('../images/categories.png'), none;
 }
 
 .emoji_category_list__category + .emoji_category_list__category {

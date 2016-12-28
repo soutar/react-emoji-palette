@@ -1,10 +1,10 @@
 import './Emoji.css';
 import React from 'react';
 import classNames from 'classnames';
-import { MODES } from './constants';
-import { mode, codePoints } from './propTypes';
-import fromCodePoints from './fromCodePoints';
-import getTwemojiUrl from './getTwemojiUrl';
+import { MODES } from '../shared/constants';
+import { mode, codePoints } from '../shared/propTypes';
+import fromCodePoints from '../shared/fromCodePoints';
+import getTwemojiUrl from '../shared/getTwemojiUrl';
 
 const NativeEmoji = ({ title, codePoints, className, ...props }) => (
   <span

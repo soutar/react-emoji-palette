@@ -1,7 +1,7 @@
 import './EmojiCategoryList.css';
 import React from 'react';
 import classNames from 'classnames';
-import { categories, category, onCategorySelect } from './propTypes';
+import { categories, category, onCategorySelect } from '../shared/propTypes';
 
 const EmojiCategoryList = ({ className, categories, activeCategory, onCategorySelect }) => (
   <div className={ classNames( className, 'emoji_category_list' ) }>
