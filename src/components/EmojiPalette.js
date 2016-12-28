@@ -70,7 +70,7 @@ export default class EmojiPalette extends Component {
                 <EmojiList
                   mode={ this.props.mode }
                   activeSkinTone={ this.state.skinTone }
-                  category={ this.state.activeCategory }
+                  categories={ this.state.categories.filter(c => c.id !== 'recent') }
                   descriptionsAndKeywords={ this.state.descriptionsAndKeywords }
                   searchQuery={ this.state.searchQuery }
                   onEmojiSelect={ this.props.onEmojiSelect }

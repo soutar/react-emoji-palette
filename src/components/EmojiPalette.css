@@ -13,6 +13,10 @@
   display: flex;
 }
 
+.emoji_palette * {
+  box-sizing: border-box;
+}
+
 .emoji_palette__categories {
   flex: 0 0 auto;
   padding: 12px;
