@@ -5,7 +5,7 @@ A React clone of Twitter's emoji picker, supporting both native rendering and Tw
 
 [react-virtualized](https://github.com/bvaughn/react-virtualized) is used to reduce the number of nodes rendered when browsing large categories with the added benefit of lazy-loading Twemoji when used.
 
-![](https://github.com/soutar/react-emoji-palette/blob/master/react-emoji-palette.gif)
+![](https://raw.githubusercontent.com/soutar/react-emoji-palette/master/react-emoji-palette.gif)
 
 ### Props
 
