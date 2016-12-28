@@ -1,7 +1,8 @@
 import './EmojiSkinToneSelector.css';
-import React/*, { PropTypes }*/ from 'react';
+import React, { PropTypes } from 'react';
 import classNames from 'classnames';
 import Tick from 'react-icons/lib/md/done';
+import { skinTone, onSkinToneSelect } from './propTypes';
 
 import { SKIN_TONES, SKIN_TONE_TITLES } from './constants';
 
@@ -33,5 +34,10 @@ const EmojiSkinToneSelector = ({ className, activeSkinTone, onSkinToneSelect }) 
     ))}
   </div>
 );
+
+EmojiSkinToneSelector.propTypes = {
+  activeSkinTone: skinTone.isRequired,
+  onSkinToneSelect: onSkinToneSelect.isRequired
+};
 
 export default EmojiSkinToneSelector;
