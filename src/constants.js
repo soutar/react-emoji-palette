@@ -20,3 +20,11 @@ export const SKIN_TONE_TITLES = {
   MEDIUM_DARK: 'Medium dark skin tone',
   DARK: 'Dark skin tone'
 };
+
+export const CODEPOINT_DELIMITER = '-';
+export const VARIANT_CODEPOINT = 'fe0f';
+export const ZWJ_CODEPOINT = '200d';
+export const DIVERSE_EMOJI_MARKER = '*';
+export const VARIANT_EMOJI_MARKER = '=';
+
+export const LIST_COLUMN_COUNT = 7;
