@@ -36,3 +36,7 @@ const MyComponent = () => (
 * Unable to scroll between categories (see Twitter's picker)
 * Category bar does not respect mode (native vs. twemoji)
 * More
+
+### Important resources for working with emoji
+* http://www.unicode.org/emoji/charts/index.html
+* http://www.unicode.org/Public/UNIDATA/
