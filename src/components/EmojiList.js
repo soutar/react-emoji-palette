@@ -1,7 +1,7 @@
 import './EmojiList.css';
 import React from 'react';
 import { AutoSizer, Grid } from 'react-virtualized';
-import { compose } from 'ramda';
+import compose from '../shared/compose';
 import diversityFactory from '../shared/diversityFactory';
 import createEmojiObject from '../shared/createEmojiObject';
 import getTwemojiUrl from '../shared/getTwemojiUrl';

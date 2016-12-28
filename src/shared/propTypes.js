@@ -1,5 +1,5 @@
 import { PropTypes } from 'react';
-import { values } from 'ramda';
+import values from './values';
 import { MODES, SKIN_TONES } from './constants';
 
 export const callback = PropTypes.func;
