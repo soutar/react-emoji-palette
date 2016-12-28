@@ -14,7 +14,7 @@ Promise.all([
   );
 
   fs.writeFileSync(
-    './src/emoji.json',
+    './src/data/emoji.json',
     JSON.stringify(emojiData, null, 2)
   );
 }).catch(

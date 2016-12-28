@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 import { storiesOf, action } from '@kadira/storybook';
-import EmojiPalette, { MODES } from '../';
+import EmojiPalette, { MODES } from '../src/';
 
 const onEmojiSelect = action('onEmojiSelect');
 

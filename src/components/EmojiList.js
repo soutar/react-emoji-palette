@@ -2,12 +2,12 @@ import './EmojiList.css';
 import React from 'react';
 import { AutoSizer, Grid } from 'react-virtualized';
 import { compose } from 'ramda';
-import diversityFactory from './diversityFactory';
-import createEmojiObject from './createEmojiObject';
-import getTwemojiUrl from './getTwemojiUrl';
+import diversityFactory from '../shared/diversityFactory';
+import createEmojiObject from '../shared/createEmojiObject';
+import getTwemojiUrl from '../shared/getTwemojiUrl';
 import Emoji from './Emoji';
-import { LIST_COLUMN_COUNT, ZWJ_CODEPOINT } from './constants';
-import { category, skinTone, displayZeroWidthJoins, maxUnicodeVersion, mode, searchQuery, descriptionsAndKeywords, onEmojiSelect } from './propTypes';
+import { LIST_COLUMN_COUNT, ZWJ_CODEPOINT } from '../shared/constants';
+import { category, skinTone, displayZeroWidthJoins, maxUnicodeVersion, mode, searchQuery, descriptionsAndKeywords, onEmojiSelect } from '../shared/propTypes';
 
 const renderCell = ({
   style, key,

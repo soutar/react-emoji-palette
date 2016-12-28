@@ -2,9 +2,9 @@ import './EmojiSkinToneSelector.css';
 import React, { PropTypes } from 'react';
 import classNames from 'classnames';
 import Tick from 'react-icons/lib/md/done';
-import { skinTone, onSkinToneSelect } from './propTypes';
+import { skinTone, onSkinToneSelect } from '../shared/propTypes';
 
-import { SKIN_TONES, SKIN_TONE_TITLES } from './constants';
+import { SKIN_TONES, SKIN_TONE_TITLES } from '../shared/constants';
 
 const EmojiSkinToneSelector = ({ className, activeSkinTone, onSkinToneSelect }) => (
   <div className={ classNames(className, 'emoji_skin_tone_selector') }>
