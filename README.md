@@ -1,6 +1,8 @@
 # react-emoji-palette
 A React clone of Twitter's emoji picker, supporting both native rendering and Twemoji. **This component is unfinished and should be considered early alpha.**
 
+~120kb (~32kb with gzip) of data necessary for categorising, searching and determining the Unicode version of emoji is lazy-loaded with `require.ensure` when the component mounts. [react-virtualized](https://github.com/bvaughn/react-virtualized) is used to reduce the number of nodes rendered when browsing large categories with the added benefit of lazy-loading Twemoji when used.
+
 ![](https://github.com/soutar/react-emoji-palette/blob/master/react-emoji-palette.gif)
 
 ### Props
