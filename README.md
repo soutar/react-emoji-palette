@@ -16,6 +16,12 @@ A React clone of Twitter's emoji picker, supporting both native rendering and Tw
 
 ### Usage
 
+#### Install with npm or yarn:
+* `npm install react-emoji-palette@1.0.0-alpha5 --save`
+* `yarn add react-emoji-palette@1.0.0-alpha5`
+
+#### Import and render
+
 ```js
 import React from 'react';
 import EmojiPalette, { MODES } from 'react-emoji-palette';
