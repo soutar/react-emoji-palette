@@ -89,7 +89,6 @@ export default class EmojiPalette extends Component {
   }
 }
 
-// const EmojiList = () => <span>Emoji list</span>;
 const Loading = () => <span>Loading</span>;
 
 EmojiPalette.propTypes = {

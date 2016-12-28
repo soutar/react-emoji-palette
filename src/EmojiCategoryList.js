@@ -1,6 +1,7 @@
 import './EmojiCategoryList.css';
-import React, { PropTypes } from 'react';
+import React from 'react';
 import classNames from 'classnames';
+import { categories, category, onCategorySelect } from './propTypes';
 
 const EmojiCategoryList = ({ className, categories, activeCategory, onCategorySelect }) => (
   <div className={ classNames( className, 'emoji_category_list' ) }>
@@ -21,14 +22,9 @@ const EmojiCategoryList = ({ className, categories, activeCategory, onCategorySe
 );
 
 EmojiCategoryList.propTypes = {
- categories: PropTypes.arrayOf(
-   PropTypes.shape({
-     id: PropTypes.string,
-     title: PropTypes.string
-   })
- ),
- activeCategory: PropTypes.object,
- onCategorySelect: PropTypes.func
+ categories: categories.isRequired,
+ activeCategory: category.isRequired,
+ onCategorySelect: onCategorySelect.isRequired
 };
 
 export default EmojiCategoryList;

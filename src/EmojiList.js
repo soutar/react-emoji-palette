@@ -7,6 +7,7 @@ import createEmojiObject from './createEmojiObject';
 import getTwemojiUrl from './getTwemojiUrl';
 import Emoji from './Emoji';
 import { LIST_COLUMN_COUNT, ZWJ_CODEPOINT } from './constants';
+import { category, skinTone, displayZeroWidthJoins, maxUnicodeVersion, mode, searchQuery, descriptionsAndKeywords, onEmojiSelect } from './propTypes';
 
 const renderCell = ({
   style, key,
@@ -39,7 +40,16 @@ const renderCell = ({
   );
 };
 
-const EmojiList = ({ activeSkinTone, category, descriptionsAndKeywords, searchQuery, maxUnicodeVersion, displayZeroWidthJoins, onEmojiSelect, mode }) => {
+const EmojiList = ({
+  category,
+  activeSkinTone,
+  searchQuery,
+  maxUnicodeVersion,
+  displayZeroWidthJoins,
+  mode,
+  descriptionsAndKeywords,
+  onEmojiSelect
+}) => {
   const emojis = category.items.map(
     compose(
       ([ originalKey, diverseKey ]) => ({
@@ -57,10 +67,6 @@ const EmojiList = ({ activeSkinTone, category, descriptionsAndKeywords, searchQu
       && (displayZeroWidthJoins || codePoints.indexOf(ZWJ_CODEPOINT) === -1)
     )
   );
-
-  console.log(emojis);
-
-
 
   return (
     <section className='emoji_list'>
@@ -83,13 +89,24 @@ const EmojiList = ({ activeSkinTone, category, descriptionsAndKeywords, searchQu
               height={ height }
               width={ width }
               rowCount={ Math.ceil(emojis.length / LIST_COLUMN_COUNT) }
-              tabIndex='0'
+              tabIndex={0}
             />
           )}
         </AutoSizer>
       </div>
     </section>
   );
+};
+
+EmojiList.propTypes = {
+  category: category.isRequired,
+  activeSkinTone: skinTone.isRequired,
+  searchQuery: searchQuery.isRequired,
+  maxUnicodeVersion: maxUnicodeVersion,
+  displayZeroWidthJoins: displayZeroWidthJoins.isRequired,
+  mode: mode.isRequired,
+  descriptionsAndKeywords: descriptionsAndKeywords.isRequired,
+  onEmojiSelect: onEmojiSelect.isRequired
 };
 
 export default EmojiList;
