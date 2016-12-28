@@ -1,0 +1,6 @@
+src/
+stories/
+utils/
+.storybook/
+react-emoji-palette.gif
+README.md
