@@ -84,7 +84,8 @@
     },
     "2199": {
       "description": "South west arrow",
-      "keywords": "down-left arrow,arrow,direction,intercardinal,southwest"
+      "keywords": "down-left arrow,arrow,direction,intercardinal,southwest",
+      "minVersion": 1.1
     },
     "2328": {
       "description": "Keyboard",
@@ -113,7 +114,8 @@
     },
     "2604": {
       "description": "Comet",
-      "keywords": "comet,space"
+      "keywords": "comet,space",
+      "minVersion": 1.1
     },
     "2611": {
       "description": "Ballot box with check",
@@ -127,7 +129,8 @@
     },
     "2615": {
       "description": "Hot beverage",
-      "keywords": "beverage,coffee,drink,hot,steaming,tea"
+      "keywords": "beverage,coffee,drink,hot,steaming,tea",
+      "minVersion": 4
     },
     "2618": {
       "description": "Shamrock",
@@ -146,7 +149,8 @@
     },
     "2623": {
       "description": "Biohazard sign",
-      "keywords": "biohazard"
+      "keywords": "biohazard",
+      "minVersion": 1.1
     },
     "2626": {
       "description": "Orthodox cross",
@@ -200,7 +204,8 @@
     },
     "2653": {
       "description": "Pisces",
-      "keywords": "fish,pisces,zodiac"
+      "keywords": "fish,pisces,zodiac",
+      "minVersion": 1.1
     },
     "2660": {
       "description": "Spades suit symbol",
@@ -219,7 +224,8 @@
     },
     "2666": {
       "description": "Diamonds suit symbol",
-      "keywords": "card,diamond,diamonds,game,suit"
+      "keywords": "card,diamond,diamonds,game,suit",
+      "minVersion": 1.1
     },
     "2668": {
       "description": "Hot springs",
@@ -253,7 +259,8 @@
     },
     "2697": {
       "description": "Alembic",
-      "keywords": "alembic,chemistry,tool"
+      "keywords": "alembic,chemistry,tool",
+      "minVersion": 4.1
     },
     "2699": {
       "description": "Gear",
@@ -277,7 +284,8 @@
     },
     "2709": {
       "description": "Envelope",
-      "keywords": "e-mail,email,envelope"
+      "keywords": "e-mail,email,envelope",
+      "minVersion": 1.1
     },
     "2712": {
       "description": "Pen nib",
@@ -311,7 +319,8 @@
     },
     "2734": {
       "description": "Eight-pointed star",
-      "keywords": "star"
+      "keywords": "star",
+      "minVersion": 1.1
     },
     "2744": {
       "description": "Snowflake",
@@ -335,7 +344,8 @@
     },
     "2755": {
       "description": "White exclamation mark ornament",
-      "keywords": "exclamation,mark,outlined,punctuation"
+      "keywords": "exclamation,mark,outlined,punctuation",
+      "minVersion": 6
     },
     "2757": {
       "description": "Red exclamation mark symbol",
@@ -349,7 +359,8 @@
     },
     "2764": {
       "description": "Heavy red heart",
-      "keywords": "heart"
+      "keywords": "heart",
+      "minVersion": 1.1
     },
     "2795": {
       "description": "Heavy plus sign",
@@ -363,7 +374,8 @@
     },
     "2797": {
       "description": "Heavy division sign",
-      "keywords": "division,math"
+      "keywords": "division,math",
+      "minVersion": 6
     },
     "2934": {
       "description": "Arrow pointing rightwards then curving upwards",
@@ -372,7 +384,8 @@
     },
     "2935": {
       "description": "Arrow pointing rightwards then curving downwards",
-      "keywords": "right arrow curving down,arrow,down"
+      "keywords": "right arrow curving down,arrow,down",
+      "minVersion": 3.2
     },
     "3030": {
       "description": "Wavy dash",
@@ -451,7 +464,8 @@
     },
     "1f642": {
       "description": "Slightly smiling face",
-      "keywords": "face,smile,happy"
+      "keywords": "face,smile,happy",
+      "minVersion": 7
     },
     "1f643": {
       "description": "Upside-down face",
@@ -460,7 +474,8 @@
     },
     "263a": {
       "description": "Smiling face",
-      "keywords": "face,outlined,relaxed,smile"
+      "keywords": "face,outlined,relaxed,smile",
+      "minVersion": 1.1
     },
     "1f60b": {
       "description": "Face savouring delicious food",
@@ -554,7 +569,8 @@
     },
     "1f610": {
       "description": "Neutral face",
-      "keywords": "deadpan,face,neutral"
+      "keywords": "deadpan,face,neutral",
+      "minVersion": 6
     },
     "1f611": {
       "description": "Expressionless face",
@@ -568,7 +584,8 @@
     },
     "1f644": {
       "description": "Face with rolling eyes",
-      "keywords": "eyes,face,rolling"
+      "keywords": "eyes,face,rolling",
+      "minVersion": 8
     },
     "1f914": {
       "description": "Thinking face",
@@ -582,11 +599,13 @@
     },
     "1f633": {
       "description": "Flushed face",
-      "keywords": "dazed,face,flushed"
+      "keywords": "dazed,face,flushed",
+      "minVersion": 6
     },
     "1f61e": {
       "description": "Disappointed face",
-      "keywords": "disappointed,face"
+      "keywords": "disappointed,face",
+      "minVersion": 6
     },
     "1f61f": {
       "description": "Worried face",
@@ -605,7 +624,8 @@
     },
     "1f614": {
       "description": "Pensive face",
-      "keywords": "dejected,face,pensive"
+      "keywords": "dejected,face,pensive",
+      "minVersion": 6
     },
     "1f615": {
       "description": "Confused face",
@@ -629,7 +649,8 @@
     },
     "1f62b": {
       "description": "Tired face",
-      "keywords": "face,tired"
+      "keywords": "face,tired",
+      "minVersion": 6
     },
     "1f629": {
       "description": "Weary face",
@@ -663,7 +684,8 @@
     },
     "1f62f": {
       "description": "Hushed face",
-      "keywords": "face,hushed,stunned,surprised"
+      "keywords": "face,hushed,stunned,surprised",
+      "minVersion": 6.1
     },
     "1f626": {
       "description": "Frowning face with open mouth",
@@ -672,7 +694,8 @@
     },
     "1f627": {
       "description": "Anguished face",
-      "keywords": "anguished,face"
+      "keywords": "anguished,face",
+      "minVersion": 6.1
     },
     "1f622": {
       "description": "Crying face",
@@ -681,7 +704,8 @@
     },
     "1f625": {
       "description": "Disappointed but relieved face",
-      "keywords": "disappointed,face,relieved,whew"
+      "keywords": "disappointed,face,relieved,whew",
+      "minVersion": 6
     },
     "1f62a": {
       "description": "Sleepy face",
@@ -740,7 +764,8 @@
     },
     "1f927": {
       "description": "Sneezing face",
-      "keywords": "face,gesundheit,sneeze"
+      "keywords": "face,gesundheit,sneeze",
+      "minVersion": 9
     },
     "1f634": {
       "description": "Sleeping face",
@@ -829,7 +854,8 @@
     },
     "1f640": {
       "description": "Weary cat face",
-      "keywords": "cat,face,oh,surprised,weary"
+      "keywords": "cat,face,oh,surprised,weary",
+      "minVersion": 6
     },
     "1f63f": {
       "description": "Crying cat face",
@@ -903,7 +929,8 @@
     },
     "270b": {
       "description": "Raised hand",
-      "keywords": "body,hand"
+      "keywords": "body,hand",
+      "minVersion": 6
     },
     "1f91a": {
       "description": "Raised back of hand",
@@ -927,7 +954,8 @@
     },
     "1f64f": {
       "description": "Person with folded hands",
-      "keywords": "ask,body,bow,folded,gesture,hand,please,pray,thanks"
+      "keywords": "ask,body,bow,folded,gesture,hand,please,pray,thanks",
+      "minVersion": 6
     },
     "261d": {
       "description": "Hand from front with index finger pointing up",
@@ -976,7 +1004,8 @@
     },
     "1f596": {
       "description": "Star Trek Vulcan salute",
-      "keywords": "body,finger,hand,spock,vulcan"
+      "keywords": "body,finger,hand,spock,vulcan",
+      "minVersion": 7
     },
     "1f933": {
       "description": "Selfieㅤ",
@@ -985,7 +1014,8 @@
     },
     "270d": {
       "description": "Writing hand",
-      "keywords": "body,hand,write"
+      "keywords": "body,hand,write",
+      "minVersion": 1.1
     },
     "1f485": {
       "description": "Nail polish",
@@ -1864,7 +1894,8 @@
     },
     "1f393": {
       "description": "Graduation cap",
-      "keywords": "activity,cap,celebration,clothing,graduation,hat"
+      "keywords": "activity,cap,celebration,clothing,graduation,hat",
+      "minVersion": 6
     },
     "1f451": {
       "description": "Crown",
@@ -1943,7 +1974,8 @@
     },
     "1f3ff": {
       "description": "(Dark skin tone)",
-      "keywords": "emoji modifier,fitzpatrick,skin,tone"
+      "keywords": "emoji modifier,fitzpatrick,skin,tone",
+      "minVersion": 8
     },
     "1f469-200d-2764-fe0f-200d-1f48b-200d-1f468": {
       "description": "Kiss (woman, man)",
@@ -2037,7 +2069,8 @@
     },
     "1f991": {
       "description": "Squid",
-      "keywords": "molusc,squid"
+      "keywords": "molusc,squid",
+      "minVersion": 9
     },
     "1f435": {
       "description": "Monkey face",
@@ -2126,7 +2159,8 @@
     },
     "1f984": {
       "description": "Unicorn face",
-      "keywords": "face,unicorn"
+      "keywords": "face,unicorn",
+      "minVersion": 8
     },
     "1f41d": {
       "description": "Honeybee",
@@ -2330,7 +2364,8 @@
     },
     "1f54a": {
       "description": "Dove of peace",
-      "keywords": "bird,dove,fly,peace"
+      "keywords": "bird,dove,fly,peace",
+      "minVersion": 7
     },
     "1f985": {
       "description": "Eagleㅤ",
@@ -2374,7 +2409,8 @@
     },
     "1f43e": {
       "description": "Paw prints",
-      "keywords": "feet,paw,print"
+      "keywords": "feet,paw,print",
+      "minVersion": 6
     },
     "1f409": {
       "description": "Dragon",
@@ -2388,7 +2424,8 @@
     },
     "1f335": {
       "description": "Cactus",
-      "keywords": "cactus,plant"
+      "keywords": "cactus,plant",
+      "minVersion": 6
     },
     "1f384": {
       "description": "Christmas tree",
@@ -2627,7 +2664,8 @@
     },
     "26c5": {
       "description": "Sun behind cloud",
-      "keywords": "cloud,sun,weather"
+      "keywords": "cloud,sun,weather",
+      "minVersion": 5.2
     },
     "1f325": {
       "description": "Sun behind large cloudㅤ",
@@ -2681,7 +2719,8 @@
     },
     "1f32c": {
       "description": "Wind-blowing face",
-      "keywords": "blow,cloud,face,weather,wind"
+      "keywords": "blow,cloud,face,weather,wind",
+      "minVersion": 7
     },
     "1f4a8": {
       "description": "Dash symbol",
@@ -2860,7 +2899,8 @@
     },
     "1f95e": {
       "description": "Pancakesㅤ",
-      "keywords": "crêpe,hotcake,pancake"
+      "keywords": "crêpe,hotcake,pancake",
+      "minVersion": 9
     },
     "1f9c0": {
       "description": "Cheese wedge",
@@ -2929,7 +2969,8 @@
     },
     "1f32f": {
       "description": "Burrito",
-      "keywords": "burrito,mexican"
+      "keywords": "burrito,mexican",
+      "minVersion": 8
     },
     "1f959": {
       "description": "stuffed flatbread",
@@ -3043,7 +3084,8 @@
     },
     "1f37f": {
       "description": "Popcorn",
-      "keywords": "popcorn"
+      "keywords": "popcorn",
+      "minVersion": 8
     },
     "1f369": {
       "description": "Doughnut",
@@ -3062,7 +3104,8 @@
     },
     "1f37c": {
       "description": "Baby bottle",
-      "keywords": "baby,bottle,drink,milk"
+      "keywords": "baby,bottle,drink,milk",
+      "minVersion": 6
     },
     "1f375": {
       "description": "Teacup without handle",
@@ -3146,7 +3189,8 @@
     },
     "26be": {
       "description": "Baseball",
-      "keywords": "ball,baseball"
+      "keywords": "ball,baseball",
+      "minVersion": 5.2
     },
     "1f3be": {
       "description": "Tennis ball",
@@ -3190,7 +3234,8 @@
     },
     "1f3d3": {
       "description": "Table tennis paddle and ball",
-      "keywords": "ball,bat,game,paddle,table tennis"
+      "keywords": "ball,bat,game,paddle,table tennis",
+      "minVersion": 8
     },
     "1f3f8": {
       "description": "Badminton racquet and shuttlecock",
@@ -3214,7 +3259,8 @@
     },
     "1f945": {
       "description": "Goal net",
-      "keywords": "goal,net"
+      "keywords": "goal,net",
+      "minVersion": 9
     },
     "1f94a": {
       "description": "Boxing glove",
@@ -3223,7 +3269,8 @@
     },
     "1f94b": {
       "description": "Martial arts uniform",
-      "keywords": "judo,karate,martial arts,taekwondo,uniform"
+      "keywords": "judo,karate,martial arts,taekwondo,uniform",
+      "minVersion": 9
     },
     "1f3bf": {
       "description": "Ski and ski boot",
@@ -3257,7 +3304,8 @@
     },
     "1f6f6": {
       "description": "Canoe",
-      "keywords": "boat,canoe"
+      "keywords": "boat,canoe",
+      "minVersion": 9
     },
     "1f6a3-200d-2640-fe0f": {
       "description": "Woman rowing boat",
@@ -3296,7 +3344,8 @@
     },
     "1f3c4": {
       "description": "Surfer",
-      "keywords": "surfer,surfing,man,male,men"
+      "keywords": "surfer,surfing,man,male,men",
+      "minVersion": 6
     },
     "1f3c4-200d-2642-fe0f": {
       "description": "Man surfing",
@@ -3420,7 +3469,8 @@
     },
     "1f93e": {
       "description": "Handball",
-      "keywords": "ball,handball,woman,female,women"
+      "keywords": "ball,handball,woman,female,women",
+      "minVersion": 9
     },
     "1f93e-200d-2640-fe0f": {
       "description": "Woman playing handball",
@@ -3434,7 +3484,8 @@
     },
     "1f93a": {
       "description": "Fencerㅤ",
-      "keywords": "fencer,fencing,sword"
+      "keywords": "fencer,fencing,sword",
+      "minVersion": 9
     },
     "1f3c6": {
       "description": "Trophy",
@@ -3473,11 +3524,13 @@
     },
     "1f397": {
       "description": "Reminder ribbon",
-      "keywords": "celebration,reminder,ribbon"
+      "keywords": "celebration,reminder,ribbon",
+      "minVersion": 7
     },
     "1f3f5": {
       "description": "Rosette",
-      "keywords": "plant,rosette"
+      "keywords": "plant,rosette",
+      "minVersion": 7
     },
     "1f3ab": {
       "description": "Ticket",
@@ -3486,7 +3539,8 @@
     },
     "1f39f": {
       "description": "Admission tickets",
-      "keywords": "admission,entertainment,ticket"
+      "keywords": "admission,entertainment,ticket",
+      "minVersion": 7
     },
     "1f3ad": {
       "description": "Performing arts",
@@ -3610,7 +3664,8 @@
     },
     "1f3ce": {
       "description": "Racing car",
-      "keywords": "car,racing"
+      "keywords": "car,racing",
+      "minVersion": 7
     },
     "1f693": {
       "description": "Police car",
@@ -3784,7 +3839,8 @@
     },
     "1f6ec": {
       "description": "Aeroplane landing",
-      "keywords": "airplane,arrivals,arriving,landing,vehicle"
+      "keywords": "airplane,arrivals,arriving,landing,vehicle",
+      "minVersion": 7
     },
     "26f5": {
       "description": "Sailboat",
@@ -3793,7 +3849,8 @@
     },
     "1f6e5": {
       "description": "Motorboat",
-      "keywords": "boat,motorboat,vehicle"
+      "keywords": "boat,motorboat,vehicle",
+      "minVersion": 7
     },
     "1f6a4": {
       "description": "Speedboat",
@@ -4012,7 +4069,8 @@
     },
     "1f320": {
       "description": "Shooting star",
-      "keywords": "activity,falling,shooting,space,star"
+      "keywords": "activity,falling,shooting,space,star",
+      "minVersion": 6
     },
     "1f387": {
       "description": "Firework sparkler",
@@ -4036,7 +4094,8 @@
     },
     "1f3f0": {
       "description": "European castle",
-      "keywords": "building,castle,european"
+      "keywords": "building,castle,european",
+      "minVersion": 6
     },
     "1f3ef": {
       "description": "Japanese castle",
@@ -4045,7 +4104,8 @@
     },
     "1f3df": {
       "description": "Stadium",
-      "keywords": "stadium"
+      "keywords": "stadium",
+      "minVersion": 7
     },
     "1f5fd": {
       "description": "Statue of liberty",
@@ -4193,11 +4253,13 @@
     },
     "1f5b2": {
       "description": "Trackball",
-      "keywords": "computer,trackball"
+      "keywords": "computer,trackball",
+      "minVersion": 7
     },
     "1f579": {
       "description": "Joystick",
-      "keywords": "entertainment,game,joystick,video game"
+      "keywords": "entertainment,game,joystick,video game",
+      "minVersion": 7
     },
     "1f5dc": {
       "description": "Compression",
@@ -4226,11 +4288,13 @@
     },
     "1f4fc": {
       "description": "Videocassette",
-      "keywords": "entertainment,tape,vhs,video,videocassette"
+      "keywords": "entertainment,tape,vhs,video,videocassette",
+      "minVersion": 6
     },
     "1f4f7": {
       "description": "Camera",
-      "keywords": "camera,entertainment,video"
+      "keywords": "camera,entertainment,video",
+      "minVersion": 6
     },
     "1f4f8": {
       "description": "Camera with flash",
@@ -4299,7 +4363,8 @@
     },
     "1f39b": {
       "description": "Control knobs",
-      "keywords": "control,knobs,music"
+      "keywords": "control,knobs,music",
+      "minVersion": 7
     },
     "23f1": {
       "description": "Stopwatch",
@@ -4318,7 +4383,8 @@
     },
     "1f570": {
       "description": "Mantelpiece clock",
-      "keywords": "clock"
+      "keywords": "clock",
+      "minVersion": 7
     },
     "23f3": {
       "description": "Hourglass with flowing sand",
@@ -4327,7 +4393,8 @@
     },
     "231b": {
       "description": "Hourglass",
-      "keywords": "hourglass,sand,timer"
+      "keywords": "hourglass,sand,timer",
+      "minVersion": 1.1
     },
     "1f4e1": {
       "description": "Satellite antenna",
@@ -4371,7 +4438,8 @@
     },
     "1f6d2": {
       "description": "Shopping trolley",
-      "keywords": "cart,shopping,trolley"
+      "keywords": "cart,shopping,trolley",
+      "minVersion": 9
     },
     "1f4b8": {
       "description": "Money with wings",
@@ -4480,7 +4548,8 @@
     },
     "26b1": {
       "description": "Funeral urn",
-      "keywords": "death,funeral,urn"
+      "keywords": "death,funeral,urn",
+      "minVersion": 4.1
     },
     "1f3fa": {
       "description": "Amphora",
@@ -4579,7 +4648,8 @@
     },
     "1f6cf": {
       "description": "Bed",
-      "keywords": "bed,hotel,sleep"
+      "keywords": "bed,hotel,sleep",
+      "minVersion": 7
     },
     "1f6aa": {
       "description": "Door",
@@ -4608,7 +4678,8 @@
     },
     "1f5ff": {
       "description": "Moyai",
-      "keywords": "moai,face,moyai,statue"
+      "keywords": "moai,face,moyai,statue",
+      "minVersion": 6
     },
     "1f6cd": {
       "description": "Shopping bags",
@@ -4772,7 +4843,8 @@
     },
     "1f5d3": {
       "description": "Spiral calendar pad",
-      "keywords": "spiral calendar,calendar,pad,spiral"
+      "keywords": "spiral calendar,calendar,pad,spiral",
+      "minVersion": 7
     },
     "1f4c7": {
       "description": "Card index",
@@ -4791,7 +4863,8 @@
     },
     "1f5c4": {
       "description": "File cabinet",
-      "keywords": "cabinet,file"
+      "keywords": "cabinet,file",
+      "minVersion": 7
     },
     "1f4cb": {
       "description": "Clipboard",
@@ -4820,7 +4893,8 @@
     },
     "1f5de": {
       "description": "Rolled-up newspaper",
-      "keywords": "news,newspaper,paper,rolled"
+      "keywords": "news,newspaper,paper,rolled",
+      "minVersion": 7
     },
     "1f4f0": {
       "description": "Newspaper",
@@ -4949,7 +5023,8 @@
     },
     "1f58d": {
       "description": "Lower left crayon",
-      "keywords": "communication,crayon"
+      "keywords": "communication,crayon",
+      "minVersion": 7
     },
     "1f58c": {
       "description": "Lower left paintbrush",
@@ -5063,11 +5138,13 @@
     },
     "1f54e": {
       "description": "Menorah with nine branches",
-      "keywords": "candelabrum,candlestick,menorah,religion"
+      "keywords": "candelabrum,candlestick,menorah,religion",
+      "minVersion": 8
     },
     "262f": {
       "description": "Yin yang",
-      "keywords": "religion,tao,taoist,yang,yin"
+      "keywords": "religion,tao,taoist,yang,yin",
+      "minVersion": 1.1
     },
     "1f6d0": {
       "description": "Place of worship",
@@ -5156,7 +5233,8 @@
     },
     "1f23a": {
       "description": "Squared cjk unified ideograph-55b6",
-      "keywords": "squared operating ideograph,chinese"
+      "keywords": "squared operating ideograph,chinese",
+      "minVersion": 6
     },
     "1f237": {
       "description": "Squared cjk unified ideograph-6708",
@@ -5165,11 +5243,13 @@
     },
     "1f19a": {
       "description": "Squared vs",
-      "keywords": "versus,vs"
+      "keywords": "versus,vs",
+      "minVersion": 6
     },
     "1f251": {
       "description": "Circled ideograph accept",
-      "keywords": "circled accept ideograph,chinese"
+      "keywords": "circled accept ideograph,chinese",
+      "minVersion": 6
     },
     "1f4ae": {
       "description": "White flower",
@@ -5203,7 +5283,8 @@
     },
     "1f171": {
       "description": "Negative squared Latin capital letter b",
-      "keywords": "b,blood"
+      "keywords": "b,blood",
+      "minVersion": 6
     },
     "1f18e": {
       "description": "Negative squared ab",
@@ -5312,7 +5393,8 @@
     },
     "269c": {
       "description": "Fleur-de-lis",
-      "keywords": "fleur-de-lis"
+      "keywords": "fleur-de-lis",
+      "minVersion": 4.1
     },
     "303d": {
       "description": "Part alternation mark",
@@ -5386,7 +5468,8 @@
     },
     "1f202": {
       "description": "Squared katakana sa",
-      "keywords": "japanese"
+      "keywords": "japanese",
+      "minVersion": 6
     },
     "1f6c2": {
       "description": "Passport control",
@@ -5405,7 +5488,8 @@
     },
     "1f6c5": {
       "description": "Left luggage",
-      "keywords": "baggage,left luggage,locker,luggage"
+      "keywords": "baggage,left luggage,locker,luggage",
+      "minVersion": 6
     },
     "267f": {
       "description": "Wheelchair symbol",
@@ -5574,7 +5658,8 @@
     },
     "23fa": {
       "description": "Circular record symbol",
-      "keywords": "record button,circle,record"
+      "keywords": "record button,circle,record",
+      "minVersion": 7
     },
     "23cf": {
       "description": "Eject symbol",
@@ -5628,7 +5713,8 @@
     },
     "1f53d": {
       "description": "Down-pointing triangle",
-      "keywords": "down button,arrow,button,down,red"
+      "keywords": "down button,arrow,button,down,red",
+      "minVersion": 6
     },
     "23eb": {
       "description": "Up-pointing double triangle",
@@ -5657,7 +5743,8 @@
     },
     "2b07": {
       "description": "Down-pointing arrow",
-      "keywords": "down arrow,arrow,cardinal,direction,down,south"
+      "keywords": "down arrow,arrow,cardinal,direction,down,south",
+      "minVersion": 4
     },
     "1f504": {
       "description": "Anticlockwise downwards and upwards open circle arrows",
@@ -5666,7 +5753,8 @@
     },
     "21aa": {
       "description": "Rightwards arrow with hook",
-      "keywords": "arrow curving right,arrow"
+      "keywords": "arrow curving right,arrow",
+      "minVersion": 1.1
     },
     "21a9": {
       "description": "Leftwards arrow with hook",
@@ -5768,7 +5856,8 @@
     },
     "26ab": {
       "description": "Medium black circle",
-      "keywords": "circle,geometric"
+      "keywords": "circle,geometric",
+      "minVersion": 4.1
     },
     "1f534": {
       "description": "Large red circle",
@@ -5812,7 +5901,8 @@
     },
     "25ab": {
       "description": "White small square",
-      "keywords": "geometric,square"
+      "keywords": "geometric,square",
+      "minVersion": 1.1
     },
     "2b1b": {
       "description": "Black large square",
@@ -5821,7 +5911,8 @@
     },
     "2b1c": {
       "description": "White large square",
-      "keywords": "geometric,square"
+      "keywords": "geometric,square",
+      "minVersion": 5.1
     },
     "1f53b": {
       "description": "Down-pointing red triangle",
@@ -5840,7 +5931,8 @@
     },
     "25fe": {
       "description": "Black medium small square",
-      "keywords": "geometric,square"
+      "keywords": "geometric,square",
+      "minVersion": 3.2
     },
     "25fd": {
       "description": "White medium small square",
@@ -6053,7 +6145,8 @@
     },
     "1f567": {
       "description": "Clock face twelve-thirty",
-      "keywords": "12,12:30,30,clock,thirty,twelve"
+      "keywords": "12,12:30,30,clock,thirty,twelve",
+      "minVersion": 6
     },
     "1f1e6": {
       "description": "Regional indicator symbol letter a",
@@ -6156,7 +6249,8 @@
       "minVersion": 6
     },
     "1f1ff": {
-      "description": "Regional indicator symbol letter z"
+      "description": "Regional indicator symbol letter z",
+      "minVersion": 6
     },
     "1f3f3": {
       "description": "Waving white flag",
