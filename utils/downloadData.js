@@ -10,12 +10,12 @@ Promise.all([
   const versionData = data[1];
 
   Object.keys(emojiData.descriptionsAndKeywords).forEach(
-    key => emojiData.descriptionsAndKeywords[key].minVersion = versionData[key]
+    key => emojiData.descriptionsAndKeywords[key].m = versionData[key]
   );
 
   fs.writeFileSync(
     './src/data/emoji.json',
-    JSON.stringify(emojiData, null, 2)
+    JSON.stringify(emojiData)
   );
 }).catch(
   (e) => console.log('Error downloading data', e)

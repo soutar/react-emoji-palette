@@ -6,7 +6,7 @@ import diversityFactory from '../shared/diversityFactory';
 import createEmojiObject from '../shared/createEmojiObject';
 import getTwemojiUrl from '../shared/getTwemojiUrl';
 import Emoji from './Emoji';
-import { LIST_COLUMN_COUNT, ZWJ_CODEPOINT } from '../shared/constants';
+import { LIST_COLUMN_COUNT, ZWJ_CODEPOINT, KEYWORDS_PROPERTY, DESCRIPTION_PROPERTY, MIN_VERSION_PROPERTY } from '../shared/constants';
 import { category, skinTone, displayZeroWidthJoins, maxUnicodeVersion, mode, searchQuery, descriptionsAndKeywords, onEmojiSelect } from '../shared/propTypes';
 
 const renderCell = ({
@@ -18,7 +18,7 @@ const renderCell = ({
   if (!emoji) return null;
 
   const { codePoints, data } =  emoji;
-  const { description } = data;
+  const description = data[DESCRIPTION_PROPERTY];
   const url = getTwemojiUrl(codePoints);
   const callbackObject = createEmojiObject({ codePoints, data, url });
 
@@ -62,8 +62,8 @@ const EmojiList = ({
   ).filter(
     ({ codePoints, data }) => (
       data
-      && data.keywords.indexOf(searchQuery) > -1
-      && data.minVersion <= maxUnicodeVersion
+      && data[KEYWORDS_PROPERTY].indexOf(searchQuery) > -1
+      && data[MIN_VERSION_PROPERTY] <= maxUnicodeVersion
       && (displayZeroWidthJoins || codePoints.indexOf(ZWJ_CODEPOINT) === -1)
     )
   );
