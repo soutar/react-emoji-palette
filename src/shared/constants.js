@@ -28,3 +28,7 @@ export const DIVERSE_EMOJI_MARKER = '*';
 export const VARIANT_EMOJI_MARKER = '=';
 
 export const LIST_COLUMN_COUNT = 7;
+
+export const KEYWORDS_PROPERTY = 'k';
+export const DESCRIPTION_PROPERTY = 'd';
+export const MIN_VERSION_PROPERTY = 'm';

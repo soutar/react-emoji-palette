@@ -18,8 +18,8 @@ module.exports = () => {
     emojiData => Object.assign({}, emojiData, {
       descriptionsAndKeywords: ramda.mapObjIndexed(
         (data, key) => ({
-          description: data[0],
-          keywords: data[1]
+          d: data[0],
+          k: data[1]
         }),
         emojiData.descriptionsAndKeywords
       )
