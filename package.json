@@ -2,7 +2,7 @@
   "name": "react-emoji-palette",
   "version": "1.0.0-alpha1",
   "description": "A React clone of Twitter's emoji picker, supporting native rendering & Twemoji",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 9001",
