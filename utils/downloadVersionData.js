@@ -33,10 +33,10 @@ module.exports = () => {
           case 2:
             range(
               parseInt(codepoints[0], 16),
-              parseInt(codepoints[1], 16)
-            ).forEach(
-              point => acc[point.toString(16)] = version
-            );
+              parseInt(codepoints[1], 16) + 1
+            ).forEach(point => {
+              acc[point.toString(16).toLowerCase()] = version;
+            });
           break;
         }
         return acc;
