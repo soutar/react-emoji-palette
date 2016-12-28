@@ -4,9 +4,9 @@ import { AutoSizer, Grid } from 'react-virtualized';
 import { compose } from 'ramda';
 import diversityFactory from './diversityFactory';
 import createEmojiObject from './createEmojiObject';
+import getTwemojiUrl from './getTwemojiUrl';
 import Emoji from './Emoji';
-
-const COLUMN_COUNT = 7;
+import { LIST_COLUMN_COUNT, ZWJ_CODEPOINT } from './constants';
 
 const renderCell = ({
   style, key,
@@ -18,7 +18,7 @@ const renderCell = ({
 
   const { codePoints, data } =  emoji;
   const { description } = data;
-  const url = `https://abs.twimg.com/emoji/v2/72x72/${codePoints}.png`;
+  const url = getTwemojiUrl(codePoints);
   const callbackObject = createEmojiObject({ codePoints, data, url });
 
   return (
@@ -54,7 +54,7 @@ const EmojiList = ({ activeSkinTone, category, descriptionsAndKeywords, searchQu
       data
       && data.keywords.indexOf(searchQuery) > -1
       && data.minVersion <= maxUnicodeVersion
-      && (displayZeroWidthJoins || codePoints.indexOf('200d') === -1)
+      && (displayZeroWidthJoins || codePoints.indexOf(ZWJ_CODEPOINT) === -1)
     )
   );
 
@@ -70,19 +70,19 @@ const EmojiList = ({ activeSkinTone, category, descriptionsAndKeywords, searchQu
           {({ width, height }) => (
             <Grid
               cellRenderer={(opts) => renderCell({
-                rowLength: COLUMN_COUNT,
+                rowLength: LIST_COLUMN_COUNT,
                 emojis,
                 descriptionsAndKeywords,
                 onClick: onEmojiSelect,
                 mode,
                 ...opts
               })}
-              columnCount={ COLUMN_COUNT }
-              rowHeight={ width / COLUMN_COUNT }
-              columnWidth={ width / COLUMN_COUNT }
+              columnCount={ LIST_COLUMN_COUNT }
+              rowHeight={ width / LIST_COLUMN_COUNT }
+              columnWidth={ width / LIST_COLUMN_COUNT }
               height={ height }
               width={ width }
-              rowCount={ Math.ceil(emojis.length / COLUMN_COUNT) }
+              rowCount={ Math.ceil(emojis.length / LIST_COLUMN_COUNT) }
               tabIndex='0'
             />
           )}

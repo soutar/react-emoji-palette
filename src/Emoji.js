@@ -3,7 +3,8 @@ import React from 'react';
 import classNames from 'classnames';
 import { MODES } from './constants';
 import { mode, codePoints } from './propTypes';
-import fromCodePoint from './fromCodePoint';
+import fromCodePoints from './fromCodePoints';
+import getTwemojiUrl from './getTwemojiUrl';
 
 const NativeEmoji = ({ title, codePoints, className, ...props }) => (
   <span
@@ -12,7 +13,7 @@ const NativeEmoji = ({ title, codePoints, className, ...props }) => (
     data-title={ title }
     className={ classNames(className, 'emoji_palette_native_emoji') }
   >
-    {codePoints.split('-').map(fromCodePoint).join('')}
+    {fromCodePoints(codePoints)}
   </span>
 );
 
@@ -20,7 +21,7 @@ const Twemoji = ({ title, codePoints, className, ...props }) => (
   <img
     { ...props }
     className={ classNames(className, 'emoji_palette_twemoji') }
-    src={`https://abs.twimg.com/emoji/v2/72x72/${codePoints}.png`}
+    src={ getTwemojiUrl(codePoints) }
     alt={ title }
   />
 );

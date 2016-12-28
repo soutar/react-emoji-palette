@@ -1,12 +1,10 @@
-import fromCodePoint from './fromCodePoint';
+import fromCodePoints from './fromCodePoints';
+import { CODEPOINT_DELIMITER } from './constants';
 
-export default ({ codePoints, data, url }) => {
-  const native = codePoints.split('-').map(fromCodePoint).join('');
-  return ({
-    id: codePoints,
-    title: data[0],
-    tags: data[1],
-    url,
-    native
-  });
-};
+export default ({ codePoints, data, url }) => ({
+  id: codePoints,
+  title: data[0],
+  tags: data[1],
+  native: fromCodePoints(codePoints),
+  url
+});
