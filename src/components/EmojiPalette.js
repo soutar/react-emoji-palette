@@ -56,7 +56,7 @@ export default class EmojiPalette extends Component {
           className='emoji_palette__categories'
           categories={ this.state.categories.filter(c => c.id !== 'recent') }
           activeCategory={ this.state.activeCategory }
-          onCategorySelect={ (category) => this.setState({ activeCategory: category }) }
+          onCategorySelect={ (category) => this.setState({ selectedCategory: category }) }
         />
         <div className='emoji_palette__main'>
           <EmojiSearch
@@ -74,8 +74,14 @@ export default class EmojiPalette extends Component {
                   descriptionsAndKeywords={ this.state.descriptionsAndKeywords }
                   searchQuery={ this.state.searchQuery }
                   onEmojiSelect={ this.props.onEmojiSelect }
+                  onScrollToCategory={ (category) => {
+                    if (category !== this.state.activeCategory) {
+                      this.setState({ activeCategory: category });
+                    }
+                  } }
                   maxUnicodeVersion={ this.props.maxUnicodeVersion }
                   displayZeroWidthJoins={ this.props.displayZeroWidthJoins }
+                  selectedCategory={ this.state.selectedCategory }
                 />
               ) }
           </div>

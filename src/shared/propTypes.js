@@ -6,6 +6,7 @@ export const callback = PropTypes.func;
 export const onEmojiSelect = callback;
 export const onSkinToneSelect = callback;
 export const onCategorySelect = callback;
+export const onScrollToCategory = callback;
 
 export const descriptionsAndKeywords = PropTypes.objectOf(
   PropTypes.shape({

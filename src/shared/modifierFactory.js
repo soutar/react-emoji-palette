@@ -4,6 +4,20 @@ import {
   DIVERSE_EMOJI_MARKER
 } from './constants';
 
+// export default (skinTone) => (emojiKey) => {
+//   const simpleKey = emoji.replace(DIVERSE_EMOJI_MARKER, '').replace(VARIANT_EMOJI_MARKER, '');
+//   const isVariant = emojiKey.indexOf(VARIANT_EMOJI_MARKER) === -1;
+//   const isDiverse = emojiKey.slice(-1) === DIVERSE_EMOJI_MARKER;
+//
+//   if (!isVariant && (!skinTone || !isDiverse)) {
+//     return [simpleKey, simpleKey];
+//   }
+//
+//   if (isDiverse) {
+//
+//   }
+// };
+
 export default (skinTone) => (emoji) => {
   const stripped = emoji.replace(DIVERSE_EMOJI_MARKER, '');
   if (!skinTone) {
